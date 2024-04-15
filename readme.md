@@ -15,6 +15,15 @@ Backend application is a RESTful API built with Node.js and Express.js. It uses 
 
 ## API Endpoints
 
+### Users
+
+- `POST /api/users/register`: Register a new user
+- `POST /api/users/login`: Login a user
+- `GET /api/users/profile`: Get the user profile
+- `PUT /api/users/profile`: Update the user profile
+- `DELETE /api/users/profile`: Delete the user profile
+- `GET /api/users/logout`: Logout the user
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
