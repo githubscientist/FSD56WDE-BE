@@ -1,0 +1,19 @@
+{
+  "name": "fsd56wde-be",
+  "version": "1.0.0",
+  "description": "Backend Application with NodeJS + ExpressJS + MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubscientist/FSD56WDE-BE.git"
+  },
+  "author": "Sathish Gnanaprakasam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubscientist/FSD56WDE-BE/issues"
+  },
+  "homepage": "https://github.com/githubscientist/FSD56WDE-BE#readme"
+}
