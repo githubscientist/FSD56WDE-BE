@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/githubscientist/FSD56WDE-BE/issues"
   },
-  "homepage": "https://github.com/githubscientist/FSD56WDE-BE#readme"
+  "homepage": "https://github.com/githubscientist/FSD56WDE-BE#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.1"
+  }
 }
