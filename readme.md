@@ -13,6 +13,37 @@ Backend application is a RESTful API built with Node.js and Express.js. It uses 
    - `PORT`: Port number for the server
 4. Run `npm run dev` to start the server
 
+## Application
+
+Job Portal System
+
+## Features
+
+- [x] User registration
+- [x] User login
+
+- [] Admin Dashboard
+  - [] Add a Company
+  - [] Update a Company
+  - [] Delete a Company
+  - [] View a Company
+  - [] View All Companies
+  - [] Add Job
+  - [] Update Job
+  - [] Delete Job
+  - [] View Job
+  - [] View All Jobs
+  - [] View All Users
+- [] User Dashboard
+  - [] View All Jobs
+  - [] View Job
+  - [] Apply Job
+  - [] View Applied Jobs
+  - [x] View Profile
+  - [x] Update Profile
+  - [x] Delete Profile
+  - [x] Logout
+
 ## API Endpoints
 
 ### Users
