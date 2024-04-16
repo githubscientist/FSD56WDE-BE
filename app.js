@@ -7,6 +7,9 @@ const cors = require('cors');
 // require cookie parser
 const cookieParser = require('cookie-parser');
 
+// require morgan
+const morgan = require('morgan');
+
 // import the user router
 const userRouter = require('./routes/userRoutes');
 
@@ -18,6 +21,9 @@ app.use(cors({
     origin: '*', // allow all origins
     credentials: true
 }));
+
+// use morgan to log requests to the console
+app.use(morgan('dev'));
 
 // use cookie parser
 app.use(cookieParser());
