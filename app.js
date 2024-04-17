@@ -20,7 +20,7 @@ const app = express();
 
 // enable all CORS requests
 app.use(cors({
-    origin: 'http://localhost:5173', // allow all origins
+    origin: 'https://fsd56wde-fe.netlify.app/', // allow all origins
     credentials: true
 }));
 
